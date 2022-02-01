@@ -176,7 +176,8 @@ function App() {
                                         className="btn btn-warning"
                                         onClick={() => {
                                             updateEmployeeWage(val.id);
-                                        }}>
+                                        }}
+                                    >
                                         Update
                                     </button>
                                     &nbsp;
@@ -184,7 +185,8 @@ function App() {
                                         className="btn btn-danger"
                                         onClick={() => {
                                             deleteEmployeeWage(val.id);
-                                        }}>
+                                        }}
+                                    >
                                         Delete
                                     </button>
                                 </div>
